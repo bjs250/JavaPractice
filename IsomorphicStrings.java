@@ -48,10 +48,10 @@ class IsomorphicStrings {
         IsomorphicStrings solution = new IsomorphicStrings();
         
         //1
-        String s = "egg";
-        String t = "add";
-        boolean result = solution.isIsomorphic(s, t);
-        System.out.printf("Expected answer: %s, Answer: %s",true,result);
+        // String s = "egg";
+        // String t = "add";
+        // boolean result = solution.isIsomorphic(s, t);
+        // System.out.printf("Expected answer: %s, Answer: %s",true,result);
 
         // 2
         // String s = "foo";
