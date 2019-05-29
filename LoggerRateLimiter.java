@@ -15,7 +15,7 @@ class LoggerRateLimiter {
      * be printed. The timestamp is in seconds granularity.
      */
     public boolean shouldPrintMessage(int timestamp, String message) {
-        System.out.printf("%s,%s,%s\n",map,timestamp,message);
+        //System.out.printf("%s,%s,%s\n",map,timestamp,message);
         if (map.containsKey(message)){
             int old_timestamp = map.get(message);
             if (Math.abs(timestamp-old_timestamp) < 10)
